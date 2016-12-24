@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+
+  <link rel="stylesheet" href="animate.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+$("#intro").addClass("animated flipInX");
+var iam=$("#iam");
+iam.hide();
+var porttour=$("#porttour");
+porttour.hide();
+var wel=$("#wel");
+wel.hide();
+setTimeout(function(){
+  iam.show();
+  $("#iam").addClass("animated flipInX");
+},1000);
+
+setTimeout(function(){
+  wel.show();
+  $("#wel").addClass("animated flipInX");
+},2000);
+
+setTimeout(function(){
+  porttour.show();
+  $("#porttour").addClass("animated flipInX");
+},3000);
+
+});
+
+
+</script>
+
+
+
+
+<style>
+body{background: url(Wall.jpg) no-repeat center fixed;
+background-size: cover;}
+#intro{font-family: 'Merienda', cursive; font-size: 350%; padding-top: 70px; color: #C71585;}
+#iam{font-family: 'Merienda', cursive; font-size: 350%;  padding-top: 40px; color: #54FF9F;}
+#porttour{font-family: 'Merienda', cursive; font-size: 350%;  padding-top: 60px; color: #54FF9F;border-style: solid; border-color: #54FF9F; border-radius: 0px 10px 0px 10px; padding: 25px;
+    margin: 25px; width: 300px; position: absolute; position: absolute; top: 400px; left: 500px;}
+#wel{color: #C71585;font-family: 'Merienda', cursive; font-size: 350%;padding-top: 40px; }
+
+
+
+
+</style>
+
+<title>Personal Portfolio</title>
+</head>
+
+
+<body >
+
+<div class="container-fluid">
+<h1 id="intro" class="text-center">Hey There! </h1>
+  <p><h1 class="text-center" id="iam">I am Aryan</h1></p>
+  <p><h1 class="text-center" id="wel">Welcome To My Portfolio.</h1></p>
+<a href="Home.html"<p><h1 class="text-center" id="porttour">Portfolio Tour</h1></p></a>
+
+
+</div>
+</body>
+</html>
