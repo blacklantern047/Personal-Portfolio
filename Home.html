@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Chango" rel="stylesheet">
+
+<link rel="stylesheet" href="animate.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+<script>
+$(document).ready(function(){
+  var ash= $(".dcg");
+  var imgm=$("#myphoto");
+var techy=$("h4#techblog");
+var iframe2=$("#iframe1")
+  imgm.hide();
+  ash.hide();
+  techy.hide();
+  iframe2.hide();
+$("#navbox").addClass("animated fadeIn");
+
+
+setTimeout(function(){
+
+  $(".text-center,#myphoto, #techblog, #iframe1").addClass("animated slideInUp");
+  ash.show();
+  imgm.show();
+  techy.show();
+  iframe2.show();
+},2000);
+
+});
+</script>
+
+<style>
+body {
+    background: url(Wall2.jpg) no-repeat center fixed;
+    background-size: cover;}
+    #backbutt{position: fixed; height: 40px; width: 40px; left: 30px; top: 10px;}
+    .home{position: fixed; left: 70px; color: #EE4000 	; font-size: 150%; top: 15px;}
+    #homebox{color: #EE4000 ; position: fixed; top: -20px; left: 10px;
+    border-style: solid; border-color: #EE4000; border-radius: 0px 10px 0px 10px; padding: 25px;
+        margin: 25px; width: 100px;}
+.text-center{font-family: 'Aref Ruqaa', serif;
+font-size: 220%;
+font-weight: bold;}
+.dcg{color: #9A32CD;
+position: absolute;;
+top: 100px;left: 500px;}
+#navy{font-weight: bold;
+font-family: 'Asap', sans-serif;
+color: #EE4000 	 ;
+font-size: 200%;}
+#navbox{position: absolute;
+left: 360px;}
+#myphoto{height: 200px; width: 200px;
+position: absolute;
+top: 450px;
+border-radius: 50%;}
+#iframe1{position: absolute;
+right: 10px;
+bottom: 10px;}
+#techy{position: absolute;bottom: 75px; left: 250px;}
+#techblog{color:#FF3030;  font-size: 150%;
+font-family: 'Merienda', cursive;
+font-weight: bolder;}
+#pic1{height: 200px; width: 300px; position: absolute; top: 130px; left: 50px;}
+#pic2{height: 200px; width: 300px; position: absolute; top: 130px; right: 50px;}
+
+</style>
+
+
+<title>Personal Portfolio</title>
+</head>
+
+
+<body >
+
+<div class="container-fluid">
+<!---Container and Navigation Bar-->
+
+
+<div class="container">
+<div id="navbox">
+  <nav class="navbar navbar-light bg-faded">
+
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><h4 id="navy">Home</h4> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item"></li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html"><h4 id="navy">About</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Skills.html"><h4 id="navy">Skills</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Achievements.html"><h4 id="navy">Achievements</h4></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html"><h4 id="navy">Contact</h4></a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-----A developer, coder and gamer text-->
+<div class="dcg"><h1 class="text-center"><p class="text-center">A Developer</p> <p class="text-center">Coder </p><p class="text-center">Gamer.</p></h1>
+</div>
+<!-----My photo---->
+<img src="aryan.JPG" id="myphoto">
+
+<div id="iframe1">
+<iframe src="http://getbootstrap.com/" width="400" height="300" frameborder="0"></iframe>
+
+</div>
+
+<div id="techy">
+<p><h4 id="techblog"><b>A TECH ENTHUSIAST</b></h4></p>
+<p><h4 id="techblog"><b>I AM A PASSIONATE CODER AND A DEVELOPER</b> </h4></p>
+<p><h4 id="techblog"><b>LOVE TO CHANGE THE WORLD BY CREATING NEW STUFF </b></h4></p>
+<a href="PersonalPortfolio.html"><div id="homebox"></div></a>
+<a href="PersonalPortfolio.html"><img src="back2.png" id="backbutt"><span class="home">Intro</span></a>
+</div>
+
+</div>
+</body
+
+</html>
