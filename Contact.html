@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+  <link rel="stylesheet" href="animate.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+var icon1=$("#icon1");
+var icon2=$("#icon2");
+var icon3=$("#icon3");
+var mailico=$("#mailico");
+var finsoc=$("#finsoc");
+var mail=$("#mail");
+icon1.hide();
+icon2.hide();
+icon3.hide();
+mailico.hide();
+finsoc.hide();
+mail.hide();
+
+
+
+$("#finme").addClass("animated rubberBand");
+
+setTimeout(function(){finsoc.show();},1000);
+setTimeout(function(){$("#finsoc").addClass("animated rubberBand");},1000);
+
+setTimeout(function(){icon1.show();},2000);
+setTimeout(function(){$("#icon1").addClass("animated shake");},2000);
+
+setTimeout(function(){icon2.show();},3000);
+setTimeout(function(){$("#icon2").addClass("animated shake");},3000);
+
+setTimeout(function(){icon3.show();},4000);
+setTimeout(function(){$("#icon3").addClass("animated shake");},4000);
+
+setTimeout(function(){mail.show();},5000);
+setTimeout(function(){$("#mail").addClass("animated flip");},5000);
+
+setTimeout(function(){mailico.show();},6000);
+setTimeout(function(){$("#mailico").addClass("animated shake");},6000);
+
+
+
+
+});
+
+</script>
+
+
+<style>
+#conback{background-color: #DC143C; width: 1334px; height: 120px; position: absolute;}
+#finme{color: white ; position: absolute; left: 515px; font-size: 300%; top: 10px;
+font-family: 'Merienda', cursive;
+
+}
+#icon1{height: 100px; width: 100px; position: absolute; left: 160px; top: 240px;}
+#icon2{height: 100px; width: 100px; position: absolute; left: 160px; top: 240px;}
+#icon3{height: 100px; width: 100px; position: absolute; left: 160px; top: 240px;}
+
+#finsoc{color: #C71585 ; position: absolute; left: 430px; font-size: 300%; top: 150px;
+font-family: 'Merienda', cursive;}
+#mail{color: #C71585 ; position: absolute; left: 590px; font-size: 300%; top: 370px;
+font-family: 'Merienda', cursive;}
+#mailico{height: 100px; width: 100px; position: absolute; left: 630px; top: 450px;}
+#backbutt{position: fixed; height: 40px; width: 40px; left: 30px; top: 10px;}
+.home{position: fixed; left: 70px; color: #00FF00 	; font-size: 150%; top: 15px;}
+#homebox{color: #00FF00; position: fixed; top: -20px; left: 10px;
+border-style: solid; border-color: #00FF00; border-radius: 0px 10px 0px 10px; padding: 25px;
+    margin: 25px; width: 100px;}
+</style>
+
+<title>Contact</title>
+</head>
+
+
+<body >
+
+<div class="container-fluid">
+
+<div id="conback">
+</div>
+<h2 id="finme">Want To Find ME?</h2>
+<h3 id="finsoc">Find me on Social Media</h3>
+<div class="col-md-4"><a href="https://www.facebook.com/aryan.bhardwaj.338"><img src="facebook.png" id="icon1"></a></div>
+<div class="col-md-4"><a href="https://plus.google.com/u/0/115010735272885199414"><img src="google-plus.png" id="icon2"></a></div>
+<div class="col-md-4"><a href="https://www.instagram.com/aryan047.akash/?hl=en"><img src="instagram.png" id="icon3"></a></div>
+
+<h3 id="mail">Mail Me!</h3>
+
+<a href="mailto:aryan.bhardwaj47@gmail.com"><img src="message.png" id="mailico"></a>
+
+<a href="Home.html"><img src="back.png" id="backbutt"><span class="home">Home</span></a>
+<a href="Home.html"><div id="homebox"></div></a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
